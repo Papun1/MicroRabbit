@@ -16,6 +16,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using MediatR;
 
+
 namespace MicroRabbit.Banking.API
 {
     public class Startup

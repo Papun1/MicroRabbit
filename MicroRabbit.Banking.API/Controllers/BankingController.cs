@@ -27,12 +27,8 @@ namespace MicroRabbit.Banking.API.Controllers
             return Ok(_AccountService.GetAccounts());
         }
 
-        // GET api/<BankingController>/5
-        [HttpGet("{id}")]
-        public string Get(int id)
-        {
-            return "value";
-        }
+       
+       
         [HttpPost]
         public IActionResult Post([FromBody] AccountTransfer accountTransfer)
         {
